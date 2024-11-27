@@ -1,7 +1,7 @@
 
 # Function to deposit money into an account
 def deposit(account: dict, amount: float) -> None:
-    account['balance'] = amount
+    account['balance'] += amount
     return account
 
     pass
