@@ -12,7 +12,7 @@ class TestBankingSystem(unittest.TestCase):
 
     def test_deposit(self):
         deposit(self.accounts['John'], 200)
-        self.assertEqual(self.accounts['John']['balance'], 200)
+        self.assertEqual(self.accounts['John']['balance'], 1200)
 
     def test_withdraw(self):
         withdraw(self.accounts['John'], 500)
